@@ -1,0 +1,33 @@
+.QuizBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: white;
+}
+.QuizBg {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 16px;
+}
+.nextButton {
+  background-color: rgb(0, 130, 31);
+  color: white;
+  height: 50px;
+  font-size: 18px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+}
+.nextButton:disabled {
+  background-color: rgb(204, 204, 204);
+
+  height: 50px;
+  font-size: 18px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+}
